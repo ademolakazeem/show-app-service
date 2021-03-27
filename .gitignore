@@ -1,7 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 bin/
-target/*
+target/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -73,7 +73,8 @@ pnpm-lock.yaml
 # System Files
 .DS_Store
 Thumbs.db
-*/.DS_Store
+*.DS_Store
+.idea/*
 
 
 #Test reports
