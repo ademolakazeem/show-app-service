@@ -24,7 +24,7 @@ public class GenreController {
             Genre savedGenre = genreService.saveGenre(username, showId, genre);
             if (savedGenre != null) {
 
-                return ResponseEntity.created(new URI("/genres/" + +genre.getId())).build();
+                return ResponseEntity.created(new URI("/genres/" + genre.getId())).build();
             }
             return (ResponseEntity<Genre>) ResponseEntity.status(HttpStatus.BAD_REQUEST);
         } catch (Exception e) {
