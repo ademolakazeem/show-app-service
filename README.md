@@ -1,5 +1,5 @@
-# todo-app-service
-Sample Todo services written on Java using Spring Boot.
+# show-app-service
+Sample Show services written on Java using Spring Boot.
 
 This service contains
 * Spring Data JPA
